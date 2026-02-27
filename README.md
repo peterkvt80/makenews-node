@@ -81,6 +81,9 @@ Edit phase1.sh and put in the full path to your python3 interpreter. Then you ca
 
 ```sudo ./phase1.sh```
 If there are no errors then you can create a crontab to run them automatically.
+
+```crontab -e```
+
 ```
 */10 * * * * cd /home/peterk/makenews-node && ./phase1.sh
 ```
