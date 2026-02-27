@@ -78,9 +78,11 @@ Test that it works
 If those scripts worked then we can arrange to automate it.
 
 Edit phase1.sh and put in the full path to your python3 interpreter. Then you can run it.
+
 ```sudo ./phase1.sh```
 If there are no errors then you can create a crontab to run them automatically.
-```*/10 * * * * cd /home/peterk/makenews-node && ./phase1.sh
+```
+*/10 * * * * cd /home/peterk/makenews-node && ./phase1.sh
 ```
 # Make full pages
 
