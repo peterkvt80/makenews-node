@@ -1,6 +1,6 @@
 # makenews-node
 
-Node scripts to generate teletext news pages from an RSS feed.
+Node scripts to generate teletext news pages from an RSS feed. On the tenth anniversary of the makenews, this is a rewrite for Node.js.
 
 # Files
 ```
@@ -37,3 +37,4 @@ The simple service just makes summary pages using the RSS feed only.
 # Make full pages
 
 This requires AI. You'll need to sign up and get a certificate and maybe pay if you are going to be doing more than a couple of pages per day.
+```summarisePage.py```
