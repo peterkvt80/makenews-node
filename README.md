@@ -15,8 +15,30 @@ updateIndex.py - Write the teletext index page
    |-- createIndex2.py - Generate BBC style index page, carouselling if needed
 summarisePage.py - Summarises a single teletext page. Converts a simple summary page into a full story using AI.
 ```
-# Installing
+# Installing on Linux
+Required packages among others are git, python3.
+Check that python 3 is at least 3.11.2 and install other packages. Create the python3 environment that we will use for this project.
 
+
+```
+sudo apt update
+sudo apt upgrade
+python3 --version
+sudo apt install python3-json
+sudo apt install python3-bs4
+```
+When we want to use this environment we can use
+```
+source newsenv/bin/activate
+```
+## Install makenews-node
+Install the source code in the home directory and set up the python3 environment
+```
+cd ~
+git clone https://github.com/peterkvt80/makenews-node.git
+cd makenews-node
+python3 -m venv newsenv
+```
 [How to install the scripts and the python environment]
 
 # First time run
