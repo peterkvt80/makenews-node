@@ -1,6 +1,6 @@
 # makenews-node
 
-Node scripts to generate teletext news pages from an RSS feed. On the tenth anniversary of the makenews, this is a rewrite for Node.js.
+Node scripts to generate teletext news pages from an RSS feed. On the tenth anniversary of the makenews, this is a rewrite for Makenews using Node.js.
 
 # Files
 ```
