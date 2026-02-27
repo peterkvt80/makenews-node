@@ -42,7 +42,7 @@ def createIndex2(storyList):
   txt = txt + footer()
     
   print(txt)
-  with open("/var/www/private/onair/xenofax/p101.tti", "w") as f:
+  with open("/var/www/onair/p101.tti", "w") as f:
     f.write(txt)
     
   #print(txt)

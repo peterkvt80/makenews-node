@@ -81,7 +81,7 @@ for (guid, title, description, link) in newPages:
   # Why? Because we are using the free tier of Gemini 2.5 Flash Lite and we need to do rate limiting.
   # especially requests per minute
   
-  teletext = createPage2("/var/www/private/onair/xenofax/",slotNumber, guid, title, description, link)
+  teletext = createPage2("/var/www/onair/",slotNumber, guid, title, description, link)
   
   cmd = '''UPDATE service
   SET guid = ?,
