@@ -80,10 +80,8 @@ If those scripts worked then we can arrange to automate it.
 Edit phase1.sh and put in the full path to your python3 interpreter. Then you can run it.
 ```sudo ./phase1.sh```
 If there are no errors then you can create a crontab to run them automatically.
-*/10 * * * * cd /home/peterk/makenews-node && ./phase1.sh
-* 1 * * * cd /home/peterk/makenews-node && /home/peterk/makenews-node/newsenv/bin/python3 summarisePage.py
-
-
+```*/10 * * * * cd /home/peterk/makenews-node && ./phase1.sh
+```
 # Make full pages
 
 This requires AI. You'll need to sign up and get a certificate and maybe pay if you are going to be doing more than a couple of pages per day.
